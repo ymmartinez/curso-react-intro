@@ -1,0 +1,39 @@
+.Icon{
+    cursor:pointer;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 18px;
+    width:18px;
+    font-size: 24px;
+    font-weight: bold;    
+
+}
+
+.Icon-container-Complete {
+    position: absolute;
+    left: 12px;
+}
+.Icon-container-Complete--active {
+    color:rgb(208, 10, 248)
+}
+.Icon-container-Delete {
+    position:absolute;
+    top: -24px;
+    right: 0;
+}
+.Icon-container-Delete:hover {
+    color:rgb(219, 6, 6);
+}
+
+.Icon-svg {
+    width: 24px;
+    height: 24px;
+}
+
+.Icon-container-Complete:hover .Icon-svg {
+    fill: green;
+}
+.Icon-container-Delete:hover .Icon-svg{
+    fill:red;
+}

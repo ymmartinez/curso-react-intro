@@ -1,0 +1,16 @@
+h1 {
+font-Size: 20px;
+text-Align: center;
+margin: 0;
+padding:20px;
+font-family: 'Libre Baskerville', serif;
+}
+h2 {
+    font-size: 13px;
+    text-align: center;
+}
+
+.TodoCounter span{
+    font-weight:bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
